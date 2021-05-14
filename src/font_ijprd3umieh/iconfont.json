@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1638001",
+      "name": "对号",
+      "font_class": "duihao",
+      "unicode": "e54e",
+      "unicode_decimal": 58702
+    },
+    {
+      "icon_id": "3494834",
+      "name": "对号",
+      "font_class": "duihao1",
+      "unicode": "e505",
+      "unicode_decimal": 58629
+    },
+    {
+      "icon_id": "14126280",
+      "name": "对号",
+      "font_class": "duihao2",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "15645799",
+      "name": "对号",
+      "font_class": "duihao3",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    }
+  ]
+}

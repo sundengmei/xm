@@ -1,0 +1,219 @@
+@charset "utf-8";
+.hidden{
+    display: none;
+}
+.orange-b{
+    border-color: #ff3300;
+}
+.sider-layout{
+    width: 375px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    img{
+        width: 375px;
+    }
+}
+.top{
+    margin-left: 375px;
+    padding:10px 30px 0 20px;
+    overflow: hidden;
+    margin: 0 auto;
+    .logo{
+        font-size: 40px;
+    }
+    .title{
+        font-size: 24px;
+        margin: 10px 8px 0;
+        font-weight: 500;
+    }
+    .top-nav{
+        font-size: 14px;
+        color: #666;
+        margin-top: 20px;
+        span{
+            margin-left: 20px;
+        }
+        .sj{
+            margin: 0;
+        }
+    }
+}
+.container{
+   padding-top: 20px;
+   position: relative;
+   overflow: hidden;
+   text-align: center;
+    width: calc(100%-375px);
+    .mi-layout-card{
+        padding: 40px 45px;
+        background-color: white;
+        display: inline-block;
+        position: relative;
+        // min-width: 450px;
+        text-align: left;
+        margin-left: -255px;
+        border-radius: 5px;
+    }
+    .ant-tabs{
+        font-size: 22px;
+       
+        span{
+            color: #ccc;
+            cursor: pointer;
+            margin-right: 18px;
+        }
+        .border-or{
+            color: black;
+            border-bottom: 2px solid #ff4d00;
+        }
+    }
+}
+.right{
+    margin-left: 375px;
+    background-color: #fdfdfd;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.account-field{
+    padding-top: 20px;
+    position: relative;
+    .account-field-input{
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        width: 356px;
+        height: 62px;
+        background-color: #f9f9f9;
+
+        .account-input-text{
+            position: absolute;
+            top: 40px;
+            left: 18px;
+            height: 27px;
+            z-index: 20;
+            // margin-left: 20px;
+            // margin-top: 26px;
+            font-size: 17px;
+            padding: 0;
+            outline: none;
+            background-color: rgba(0, 0, 0, 0);
+            border-color: rgba(0, 0, 0, 0);
+        }
+        .input-text-tip{
+            position: absolute;
+            margin: 0;
+            top: 40px;
+            left: 20px;
+            font-size: 17px;
+            color: #aaaaaa;
+        }
+        
+        .icon{
+            position: absolute;
+            right: 26px;
+            top: 45px;
+            color: #aaaaaa;
+            cursor: pointer;
+        }
+    }
+
+    .accout-tip{
+        font-size: 12px;
+        color: #ff3300;
+        margin-top: 10px;
+    }
+
+}
+.button{
+    padding-top: 20px;
+    .login{
+        border-color: rgba(0, 0, 0, 0);
+        width: 354px;
+        height: 60px;
+        background-color: #ffb899;
+        border-radius: 5px;
+        font-size: 17px;
+        color: white;
+        text-align: center;
+        line-height: 60px;
+        cursor: pointer;
+    }
+}
+.help{
+
+    margin-top: 14px;
+    font-size: 17px;
+    color: #ff4d00;
+    >div{
+        cursor: pointer;
+    }
+
+}
+.other-method{
+    margin-top: 113px;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    .app-logo{
+        font-size: 48px;
+        margin-top: 10px;
+        >.icon{
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .icon-qq{
+            color: #00affd;
+        }
+        .icon-weibo{
+            color: #ff5251;
+        }
+    }
+}
+.foot{
+    font-size: 12px;
+    color: #aaaaaa;
+    // text-align: center;
+    margin-top: 88px;
+   margin-left: -240px;
+}
+.erweima{
+    position: absolute;
+    top: -10px;
+    right: 0;
+    font-size: 46px;
+    color: #ffbb96;
+   transition: all .3s;
+
+   .erweima-tip{
+       font-size: 70px;
+       position: absolute;
+       top: -12px;
+       right: 50px;
+
+       .erweima-tip-text{
+           font-size: 14px;
+           color: white;
+           position: absolute;
+           top: 41px;
+           left: 3px;
+           margin: 0;
+       }
+   }
+}
+.erweima:hover{
+    color: #ff4d00;
+}
+.erweima:hover .erweima-tip{
+    display: block;
+}
+
+// .mi-filed-input>input:autofill-selected{
+//     background-color: rgba(0, 0, 0, 0) !important;
+// }

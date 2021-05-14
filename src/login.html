@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/sider.css">
+    <!-- <script src="./js/dl-zc.js" type="module"></script> -->
+    <script src="./font_c4wwzjtcm2a/iconfont.js"></script>
+    <script src="./font_2ivoou9pdas/iconfont.js"></script>
+    <script src="./js/login.js" type="module"></script>
+    <style>
+        .icon {
+          width: 1em;
+          height: 1em;
+          vertical-align: -0.15em;
+          fill: currentColor;
+          overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <div class="sider-layout">
+            <img src="./img/banner-img.jpg" alt="">       
+        </div>
+       <div class="right">
+        <div class="top">
+            <div class="logo fl">
+             <svg class="icon" aria-hidden="true">
+                 <use xlink:href="#icon-xiaomixinLogo"></use>
+             </svg>
+            </div>
+            <h2 class="title fl">小米账号</h2>
+            <div class="top-nav fr">
+                <span>用户协议</span>
+                <span>隐私政策</span>
+                <span>帮助中心</span>
+                <span>|</span>
+                <span>中文(简体)
+                    <span class="sj">
+                     <svg class="icon" aria-hidden="true">
+                         <use xlink:href="#icon-fangxiang-copy-copy-copy-copy-copy-copy-copy-copy"></use>
+                     </svg>
+                    </span> 
+               </span>
+            </div>
+         </div>
+         <div class="container">
+             <div class="mi-layout-card">
+
+                <div class="erweima">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-erweima"></use>
+                    </svg>
+                    <div class="erweima-tip hidden">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-duihuakuang-qipao"></use>
+                        </svg>
+                        <p class="erweima-tip-text">扫码登录</p>
+                    </div>
+                 </div>
+                 <div class="login-switch">
+
+                 </div>
+                 <div class="ant-tabs">
+                     <div class="ant-tabs-list">
+                         <span class="dl border-or">登录</span>
+                         <span class="zc">注册</span>
+                     </div>
+                     <form action="../interface/login.php" method="POST">
+                        <div class="account">
+                            <div class="account-field">
+                                <div class="account-field-input">
+                                   <!-- <div class="mi-field-contral"> -->
+                                       <div class="mi-filed-input">
+                                           <input type="text" class="account-input-text" aria-describedby="username" name="username">
+                                           <p class="input-text-tip">
+                                               邮箱/手机号码/小米ID
+                                           </p>
+                                       </div>
+                                   <!-- </div> -->
+                                </div>
+                                <div class="accout-tip hidden">
+                                    请输入账号
+                                </div>
+                            </div>
+                        </div>
+                        <div class="password">
+                           <div class="account-field">
+                               <div class="account-field-input">
+                                  <!-- <div class="mi-field-contral"> -->
+                                      <div class="mi-filed-input">
+                                          <input type="text"  class="account-input-text" aria-describedby="password" name="password">
+                                          <p class="input-text-tip">
+                                              密码
+                                          </p>
+                                      </div>
+                                     <div>
+                                       <svg class="icon" aria-hidden="true">
+                                           <use xlink:href="#icon-yanjing"></use>
+                                         </svg>
+                                         <svg class="icon hidden" aria-hidden="true">
+                                           <use xlink:href="#icon-yanjing1"></use>
+                                         </svg>
+                                     </div>
+                                  <!-- </div> -->
+                               </div>
+                               <div class="accout-tip hidden">
+                                   请输入登陆密码
+                               </div>
+                           </div>
+                        </div>
+
+                        <div class="button">
+                            <input type="submit" value="登录" name="submit" class="login" disabled>
+                        </div>
+                     </form>
+                     <div class="help">
+                         <div class="help-text">
+                             <div class="fl">忘记密码？</div>
+                             <div class="fr">手机号登录</div>
+                         </div>
+                     </div>
+                     <div class="other-method">
+                         <div class="top-titpe">其他方式登录</div>
+                         <div class="app-logo">
+                            <svg class="icon icon-qq" aria-hidden="true">
+                                <use xlink:href="#icon-QQ"></use>
+                            </svg>
+                            <svg class="icon icon-weibo" aria-hidden="true">
+                                <use xlink:href="#icon-qietu10"></use>
+                            </svg>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-zhifubao"></use>
+                            </svg>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-weixin1"></use>
+                            </svg>
+                         </div>
+                     </div>
+                    
+                 </div>
+             </div>
+             <div class="foot">
+                <p>小米公司版权所有-京ICP备10046444-京公网安备11010802020134号-京ICP证110507号</p>
+            </div>
+         </div>
+       </div>
+    </div>
+</body>
+</html>

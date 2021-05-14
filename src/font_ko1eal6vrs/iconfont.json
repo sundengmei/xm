@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8311323",
+      "name": "回顶部",
+      "font_class": "huidingbu",
+      "unicode": "e715",
+      "unicode_decimal": 59157
+    },
+    {
+      "icon_id": "18082746",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "19609855",
+      "name": "小米",
+      "font_class": "mi-1",
+      "unicode": "e515",
+      "unicode_decimal": 58645
+    }
+  ]
+}

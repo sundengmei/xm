@@ -1,0 +1,177 @@
+@charset "utf-8";
+body {
+  background-color: #f9f9f9;
+}
+.hidden {
+  display: none;
+}
+.reg {
+  width: 100%;
+  height: 100%;
+}
+.reg .re-con {
+  position: relative;
+  width: 854px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 10px;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 42px;
+}
+.reg .re-con .icon-wen {
+  font-size: 18px;
+  position: absolute;
+  top: 5px;
+  right: -40px;
+}
+.reg .re-con h1 {
+  font-size: 30px;
+  margin: 36px 0;
+}
+.content-inner {
+  width: 332px;
+  margin: 0 auto;
+}
+.country .country-inner {
+  text-align: left;
+  font-size: 14px;
+}
+.country .country-inner .country-tip {
+  margin: 0;
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+.country .country-inner .country-input {
+  width: 332px;
+}
+.country .country-inner .country-input .input-blank {
+  height: 42px;
+  overflow: hidden;
+}
+.country .country-inner .country-input .input-blank .input-inner {
+  box-sizing: border-box;
+  width: 290px;
+  height: 42px;
+  border: 1px solid #d7d7d7;
+  margin: 0 auto;
+  line-height: 42px;
+  padding-left: 15px;
+}
+.country .country-inner .country-input .input-blank .input-inner-cho {
+  box-sizing: border-box;
+  height: 42px;
+  width: 40px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 42px;
+  cursor: pointer;
+  color: #d7d7d7;
+  border-top: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+}
+.country .country-inner .country-input > p {
+  margin: 0;
+  line-height: 20px;
+  padding-top: 5px;
+  color: #666;
+}
+.phone-num {
+  padding-top: 17px;
+  text-align: left;
+}
+.phone-num .phone-number {
+  font-size: 14px;
+}
+.phone-num .phone-number .phone-tip {
+  margin: 0;
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+.phone-num .num-input {
+  overflow: hidden ;
+}
+.phone-num .num-input .num-choose {
+  height: 42px;
+  width: 68px;
+  padding-left: 14px;
+  line-height: 42px;
+  border: 1px solid #d7d7d7;
+}
+.phone-num .num-input .num-choose span {
+  margin-left: 8px;
+  cursor: pointer;
+  color: #666;
+}
+.phone-num .num-input .number-input {
+  line-height: 42px;
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
+  width: 235px;
+  height: 42px;
+  overflow: hidden;
+  padding-left: 10px;
+  position: relative;
+}
+.phone-num .num-input .number-input p {
+  color: #d7d7d7;
+  margin: 0;
+}
+.phone-num .num-input .number-input input {
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+.button .but {
+  width: 330px;
+  height: 42px;
+  background-color: #ff5b00;
+  color: white;
+  text-align: center;
+  line-height: 42px;
+  font-size: 14px;
+  border-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+.agree-with {
+  font-size: 14px;
+  margin: 0;
+  padding-top: 81px;
+  cursor: pointer;
+}
+.agree-with span {
+  font-weight: bold;
+}
+.foot {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 22px;
+}
+.foot .fo-list {
+  margin-bottom: 9px;
+}
+.foot .fo-list a {
+  color: #666;
+  margin: 0 11px;
+  cursor: pointer;
+}
+.foot .fo-list a:hover {
+  color: #333;
+}
+.foot .fo-intro {
+  color: #666;
+}
+.foot .fo-intro img {
+  display: inline;
+}
+.num-tip-p,
+.num-tip-error {
+  clear: both;
+  padding-top: 1px;
+  color: #ff4800;
+}

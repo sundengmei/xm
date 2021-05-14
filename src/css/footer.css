@@ -1,0 +1,160 @@
+@charset "utf-8";
+.footer-top {
+  background-color: white;
+  height: 330px;
+  margin-top: 70px;
+  font-size: 16px;
+}
+.footer-top > .container {
+  position: relative;
+}
+.foo-tip {
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto;
+  padding-left: 40px;
+}
+.foo-tip a {
+  margin-left: 50px;
+  line-height: 79px;
+  color: #666;
+}
+.foo-tip a svg {
+  font-size: 24px;
+}
+.foo-tip a:not(:first-child) {
+  border-left: 1px solid #ccc;
+  padding-left: 50px;
+}
+.foo-tip a:hover {
+  color: #ff5e00;
+}
+.foo-content {
+  padding-top: 34px;
+}
+.foo-content .list {
+  margin-right: 95px;
+}
+.foo-content .list span {
+  display: block;
+  font-size: 13px;
+  color: #666;
+  line-height: 26px;
+  cursor: pointer;
+}
+.foo-content .list span:hover {
+  color: #ff5e00;
+}
+.foo-content .list #li-title {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 20px;
+}
+.foo-content .line {
+  border-left: 1px solid #ccc;
+  height: 111px;
+  width: 0;
+}
+.foo-content .co-method {
+  margin-left: 45px;
+}
+.foo-content .co-method .phone-num {
+  font-size: 22px;
+  color: #ff5e00;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.foo-content .co-method .time {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 5px;
+}
+.foo-content .co-method .btn {
+  display: inline-block;
+  border: 1px solid #ff5e00;
+  width: 118px;
+  height: 28px;
+  padding: 0;
+  font-size: 12px;
+  line-height: 28px;
+  color: #ff5e00;
+  margin-left: 5px;
+}
+.foo-content .co-method .btn:hover {
+  background-color: #ff5e00;
+  color: white;
+  transition: all 0.5s;
+}
+.foo-content .co-method .guanzhu {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.foo-content .co-method .guanzhu span {
+  font-size: 20px;
+  cursor: pointer;
+}
+.foo-content .co-method .guanzhu span:hover {
+  color: #ff5e00;
+}
+.footer-bottom {
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+.footer-bottom .logo {
+  font-size: 55px;
+}
+.footer-bottom .footer-bottom-right {
+  width: 988px;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 12px;
+  margin-left: 10px;
+}
+.footer-bottom .footer-bottom-right a {
+  color: #666;
+  cursor: pointer;
+}
+.footer-bottom .footer-bottom-right a:hover {
+  cursor: pointer;
+  color: #ff5e00;
+}
+.footer-bottom .footer-bottom-right .data {
+  color: #b0b0b0;
+  line-height: 18px;
+}
+.footer-bottom .footer-bottom-right .data p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.footer-bottom .footer-bottom-right .data p span {
+  cursor: pointer;
+}
+.footer-bottom .footer-bottom-right .data p span:hover {
+  color: #ff5e00;
+}
+.footer-bottom .footer-bottom-right .brand {
+  padding-top: 5px;
+}
+.footer-bottom .footer-bottom-right .brand img {
+  width: 78px;
+  height: 28px;
+  float: left;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.footer {
+  position: relative;
+}
+.weixin > img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  bottom: -80px;
+  right: 70px;
+  z-index: 20;
+}
+.weixin:hover img {
+  display: block;
+}
+.co-method > .btn {
+  text-align: center;
+}

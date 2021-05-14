@@ -1,0 +1,345 @@
+@charset "utf-8";
+.topbar {
+  background-color: #333333;
+  height: 41px;
+}
+.app {
+  background-color: #f5f5f5;
+}
+.b-orange {
+  border-color: #ff5b00 !important;
+}
+.hidden {
+  display: none;
+}
+#nav-list {
+  float: left;
+  padding: 0;
+  font-size: 12px;
+}
+#nav-list li {
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+}
+#nav-list li a {
+  color: #ccc;
+  margin-right: 5px;
+}
+#nav-list li a:hover {
+  color: white;
+}
+#nav-list li span {
+  color: #666;
+}
+#nav-list .drop-ma {
+  position: relative;
+  z-index: 30;
+}
+#nav-list .drop-ma > .icon {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  color: white;
+  font-size: 25px;
+}
+#nav-list .drop-ma div {
+  background-color: white;
+  width: 124px;
+  position: absolute;
+  top: 29px;
+  left: -30px;
+  font-size: 14px;
+  box-shadow: 0 1px 5px #aaa;
+  text-align: center;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+#nav-list .drop-ma div img {
+  width: 90px;
+  height: 90px;
+  margin: 18px auto 12px;
+}
+#nav-list .drop-ma div p {
+  margin: 0;
+  margin-bottom: 12px;
+}
+#nav-list .drop-ma:hover .icon {
+  display: block;
+}
+#nav-list .drop-ma:hover div {
+  height: 150px;
+}
+#nav-list::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.shopcar {
+  font-size: 12px;
+  color: #ccc;
+  line-height: 39px;
+  text-align: center;
+  width: 122px;
+  float: right;
+  background-color: #424242;
+}
+.shopcar:hover {
+  background-color: white;
+  color: #ff5b00;
+}
+.right-li {
+  font-size: 12px;
+  list-style: none;
+  float: right;
+  margin-right: 22px;
+  line-height: 40px;
+}
+.right-li a {
+  color: #ccc;
+  margin-right: 5px;
+}
+.right-li a:hover {
+  color: white;
+}
+.right-li span {
+  color: #666;
+  margin-right: 5px;
+}
+.head-bar {
+  border-bottom: 1px solid #ccc;
+  height: 100px;
+  position: relative;
+}
+.head-bar .logo {
+  font-size: 55px;
+  margin-top: 10px;
+}
+.head-bar .bar-list {
+  font-size: 16x;
+  line-height: 100px;
+  margin-left: 30px;
+  float: left;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  z-index: 10;
+}
+.head-bar .bar-list > li {
+  padding: 0 9px;
+  cursor: pointer;
+}
+.head-bar .bar-list > li a {
+  color: #333;
+}
+.head-bar .bar-list > li .list-children {
+  background-color: white;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top: 101px;
+  height: 0px;
+  transition: all 0.3s;
+  font-size: 13px;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 20;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px #ccc;
+}
+.head-bar .bar-list > li .list-children .drop-list {
+  height: 0;
+  padding-bottom: 20px;
+}
+.head-bar .bar-list > li .list-children .drop-list li {
+  margin-top: 30px;
+  padding: 0 13px;
+  cursor: pointer;
+}
+.head-bar .bar-list > li .list-children .drop-list li img {
+  margin-bottom: 19px;
+}
+.head-bar .bar-list > li .list-children .drop-list li p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  line-height: 20px;
+}
+.head-bar .bar-list > li .list-children .drop-list li .xm-price {
+  color: #ff5b00;
+}
+.head-bar .bar-list > li .list-children .drop-list li:not(:last-child) {
+  border-right: 1px solid #ccc;
+  height: 100px;
+}
+.head-bar .bar-list > li:not(:first-child):hover a {
+  color: #ff5b00;
+}
+.head-bar .bar-list > .xm-pro:hover .list-children {
+  display: block;
+  height: 220px;
+}
+.head-bar .search {
+  width: 294px;
+  height: 49px;
+  border: 1px solid #ccc;
+  float: right;
+  margin-top: 25px;
+  position: relative;
+  z-index: 20;
+}
+.head-bar .search .input {
+  height: 48px;
+  color: #ccc;
+  margin-left: 9px;
+  width: 233px;
+  float: left;
+  font-size: 15px;
+  line-height: 48px;
+  border-right: 1px solid #ccc;
+}
+.head-bar .search .input > p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.head-bar .search input {
+  display: block;
+  position: absolute;
+  left: 5px;
+  top: 4px;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  height: 32px;
+  width: 214px;
+}
+.head-bar .search input:focus {
+  outline: none;
+}
+.head-bar .search .fdj {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 49px;
+  width: 51px;
+  transition: all 0.4s;
+}
+.head-bar .search .fdj span {
+  position: absolute;
+  left: 36%;
+  top: 28%;
+}
+.head-bar .search .fdj:hover {
+  background-color: #ff5b00;
+}
+.head-bar .search .fdj:hover span {
+  color: white;
+}
+.head-bar .search .s-drop {
+  width: 244px;
+  position: absolute;
+  top: 50px;
+  left: -1px;
+  border: 1px solid #ff5b00;
+  border-top: none;
+  background-color: white;
+  box-sizing: border-box;
+  font-size: 13px ;
+}
+.head-bar .search .s-drop p {
+  padding-left: 12px;
+  margin: 0;
+  line-height: 23px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+.head-bar .search .s-drop p:hover {
+  background-color: #f5f5f5;
+}
+.all-pro {
+  position: relative;
+  z-index: 20;
+}
+.all-pro .all-pro-children {
+  position: absolute;
+  top: 100px;
+  left: -125px;
+  z-index: 21;
+  font-size: 14px;
+  color: #666;
+  width: 232px;
+  height: 460px;
+  border: 1px solid #ff5b00;
+  background-color: white;
+}
+.all-pro .all-pro-children ul {
+  padding-left: 0;
+  padding: 15px 0;
+}
+.all-pro .all-pro-children ul li {
+  line-height: 42px;
+}
+.all-pro .all-pro-children ul li a {
+  display: block;
+  padding-left: 27px;
+}
+.all-pro .all-pro-children ul li a span {
+  position: absolute;
+  color: #ccc;
+  right: 24px;
+}
+.all-pro .all-pro-children ul li .pro-list {
+  position: absolute;
+  left: 233px;
+  top: 0;
+  background-color: white;
+  padding-left: 20px;
+  box-shadow: 2px 6px 8px #ccc;
+  height: 460px;
+}
+.all-pro .all-pro-children ul li .pro-list .drop-list {
+  margin-right: 30px;
+  float: left;
+}
+.all-pro .all-pro-children ul li .pro-list .drop-list > li {
+  width: 208px;
+  margin-bottom: 33px;
+  overflow: hidden;
+}
+.all-pro .all-pro-children ul li .pro-list .drop-list > li > img {
+  float: left;
+  margin-right: 10px;
+}
+.all-pro .all-pro-children ul li .pro-list .drop-list > li .xh-name {
+  font-size: 13px;
+  float: left;
+}
+.all-pro .all-pro-children ul li .pro-list .drop-list li:hover {
+  color: #ff5b00;
+}
+.all-pro .all-pro-children ul li .children-col-4 {
+  width: 1000px;
+}
+.all-pro .all-pro-children ul li .children-col-3 {
+  width: 750px;
+}
+.all-pro .all-pro-children ul li .children-col-2 {
+  width: 550px;
+}
+.all-pro .all-pro-children ul li:hover .pro-list {
+  display: block;
+}
+.all-pro .all-pro-children ul li:hover a {
+  background-color: #ff5b00;
+  color: white;
+}
+.all-pro:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.all-pro:hover .all-pro-children {
+  display: block;
+}
+.ximi-product-box {
+  position: relative;
+  z-index: 10;
+}
