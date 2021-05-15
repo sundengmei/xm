@@ -46,22 +46,18 @@ if (shop) {
                             </div>
                         </div>
                         <div class="count-all fl">${price[0].new}</div>
-                        <div class="shop-pro"></div>
                         <div class="operate fl">
-                           <span><a class="close">×</a></span>
+                           <span><a href="javascript:;" class="close" data-id="${elm.id}">×</a></span>
                         </div>
-                    </div>  `;
-               
-               
-
-                $('.shop-pro').append(temp);
-
+                    </div>`;
             });
+
+           $('.shop-pro').append(temp);
             $('.close').on('click', function() {
                 let res = shop.filter(el => el.id != $(this).attr('data-id'));
                 cookie.set('shop', JSON.stringify(res), 1);
                 location.reload();
-                $('.pro-item').addClass('hidden');
+                
             });
         }
     });

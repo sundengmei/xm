@@ -150,6 +150,10 @@ body {
   height: 55px;
   background-color: #ff5b00;
 }
+.btn .add a {
+  display: block;
+  color: white;
+}
 .btn .like {
   width: 143px;
   height: 55px;
