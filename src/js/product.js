@@ -29,7 +29,6 @@ $.ajax({
             temp3 = '',
             tempImg ='';
 
-           if(id<=3){
 
            temp =`
                 <div class="pro-name fl">${res.title}</div>  
@@ -37,10 +36,10 @@ $.ajax({
             temp1 =`
             <div>
                 <img src="./${picture[1].src}" alt="">
-                <img src="./${picture[2].src}" alt="">
-                <img src="./${picture[3].src}" alt="">
-                <img src="./${picture[4].src}" alt="">
-                <img src="./${picture[5].src}" alt="">
+                // <img src="./${picture[2].src}" alt="">
+                // <img src="./${picture[3].src}" alt="">
+                // <img src="./${picture[4].src}" alt="">
+                // <img src="./${picture[5].src}" alt="">
                 </div> 
             `;
 
@@ -78,13 +77,13 @@ $.ajax({
              `;
 
              tempImg =  `
-             <img src="./${picture[6].src}" alt="">
-             <img src="./${picture[7].src}" alt="">
-             <img src="./${picture[8].src}" alt="">
-             <img src="./${picture[9].src}" alt="">
+             <img src="./${picture[2].src}" alt="">
+             <img src="./${picture[3].src}" alt="">
+             <img src="./${picture[4].src}" alt="">
+             <img src="./${picture[5].src}" alt="">
              
              `;
-           }
+       
            console.log(tempImg)
            console.log(1)
 
@@ -98,6 +97,7 @@ $.ajax({
         $('body').find('#additem').on('click', function() {
             addItem(res.id, res.price, 1);
         })
+        
     }
 });
 

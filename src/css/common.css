@@ -29,6 +29,9 @@ img {
 a {
   text-decoration: none;
 }
+a:link {
+  color: #ccc;
+}
 ul > li {
   list-style: none;
 }

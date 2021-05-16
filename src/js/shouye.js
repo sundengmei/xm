@@ -7,6 +7,7 @@ import './library/jquery.lazyload.js';
         speed: 1000
     });
 
+  
     $(function(){
         let left = $('.left'),
             right = $('.right'),
@@ -132,9 +133,11 @@ $.ajax({
                               </div>`;  
             }else if(i==7){
                 temp3 += `<div class="li-top item-li">
+                            <a href="./product.html?id=${elm.id}"">
                             <img src="./${picture[0].src}" alt="" class="fr">
                             <div class="text fl">
                                 <p class="pro-name">${elm.title}</p>
+                                <p class="intro2">${elm.detail}</p>
                                 <P class="price">${price[0].new}</P>
                             </div>
                           </div>`;

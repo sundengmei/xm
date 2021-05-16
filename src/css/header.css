@@ -79,11 +79,17 @@
 .shopcar {
   font-size: 12px;
   color: #ccc;
-  line-height: 39px;
+  line-height: 41px;
   text-align: center;
   width: 122px;
   float: right;
   background-color: #424242;
+}
+.shopcar a {
+  color: #ccc;
+}
+.shopcar a span {
+  color: #ccc;
 }
 .shopcar:hover {
   background-color: white;
